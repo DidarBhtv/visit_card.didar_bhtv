@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
- <nav>
-        <a>Главная</a>
-        <a>Мое веб-приложение на flask</a>
-        <a href="https://www.instagram.com/" style="color:green;padding:10px 5px">Контакты</a>
-        <a>О разработчике</a>
- </nav>
-<head>
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <title>Резюме</title>
-</head>
-<body>
-    <style>
-        body { background-color: blanchedalmond}
-    </style>
-<h1>Добрый день! Я начинающий веб-разработчик!</h1>
-<p> В дальнейшем-будет информация обо</p>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-6S5KiPOzFQ3T59KdJ1Iw0GdgNpRRhurYMmMLsvdE&s">
-
-<hr>
-<footer>
- <p>My name, 2020</p>
- <p>My contacts</p>
-</footer> 
-</body>
+    <head>
+        
+        <meta http-equiv="Content-Type" charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="./visitka.css"> 
+        <title>visitka</title>
+    </head>
+    <body>
+        <header class="header">
+          <a href="#about" class="header-link link"> обо мне</a>
+          <a href="#skills" class="header-link link">навыки</a>
+        </header>
+    
+        <main class="main">
+          <aside class="aside">
+            <img src="https://sun9-59.userapi.com/impg/H4heAhJ-5gz0BqeaxBDhYsanO7Cb5AqJMOEOaQ/MRDcRyyYI08.jpg?size=441x604&quality=96&sign=ca964b76935117ac8a75acc6b00d1493&c_uniq_tag=yyD6D4ldGZdtUWuzmUP5ZF4tvrD4oSobfe7CLl1qSgo&type=album" class="img" alt="photo" width="300">
+            <p class="contacts-item">
+                <img src="https://say-hi.me/wp-content/uploads/2016/05/novyi-logotip-instagram1.jpg" alt="logo" class="contacts-icon">
+                <a href="https://www.instagram.com/didar_bhtv/?hl=es-la" style="color:red;padding:10px 5px"> Instagram</a>
+            </p>    
+          </aside> 
+           
+         <section class="main-section">  
+            <h1 class="title">Бихатов Дидар. разработчик</h1>
+            <h2 class="subtitle" id="about">обо мне</h2>
+            <p> родился и вырос в городе Астрахани. Люблю путешествия и активный отдых. </p>
+            <h2 class="subtitle" id="skills">навыки</h2>
+            <ul>
+                <li> html</li>
+                <li> css</li>
+                <li> javascript</li>
+                <li> react</li>
+            </ul>
+         </section>    
+        </main>
+        <footer class="footer">
+            <a href="https://skillfactory.ru/" class="link">Skillfactory.ru</a>
+            <span>2022</span>
+              </footer>
+    </body>
 </html>
